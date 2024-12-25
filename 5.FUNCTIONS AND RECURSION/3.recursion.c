@@ -6,7 +6,7 @@ int main()
     long long res1 = factorial_using_loop(25);
     printf("Factorial using loop: %lld\n", res1);
     long long res2 = factorial_using_recursion(25);
-    printf("Factorial using recursion: %lld\n", res2);
+    printf("Factorial using recursion: %lld", res2);
     return 0;
 }
 long long factorial_using_loop(int num)

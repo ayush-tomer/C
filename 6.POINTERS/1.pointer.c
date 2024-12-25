@@ -21,6 +21,6 @@ int main()
     printf("Value of i = %d\n", *j);
     printf("Value of i = %d\n", **(&j));
     printf("Value of i = %d\n", **k);
-    printf("Value of i = %d\n", ***(&k));
+    printf("Value of i = %d", ***(&k));
     return 0;
 }
