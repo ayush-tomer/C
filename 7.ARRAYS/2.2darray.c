@@ -20,7 +20,7 @@ void print_marks(int marks[2][3])
     {
         for(int col = 0; col < 3; col++)
         {
-            printf("The marks of student %d in subject %d is %d\n", row + 1, col + 1, marks[row][col]);
+            printf("The marks of student %d in subject %d is %d.\n", row + 1, col + 1, marks[row][col]);
         }
     }
 }

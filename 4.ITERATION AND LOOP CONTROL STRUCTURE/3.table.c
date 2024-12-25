@@ -2,7 +2,7 @@
 int main()
 {
     int num;
-    printf("Welcome to printing tables\n");
+    printf("Welcome to printing tables.\n");
     printf("Please enter an integer: ");
     scanf("%d", &num);
     for(int i = 1; i <= 10; ++i)

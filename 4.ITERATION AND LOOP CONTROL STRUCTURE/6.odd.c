@@ -7,7 +7,7 @@ int main()
         printf("Please enter a number: ");
         scanf("%d", &num1);
     }
-    printf("Congrats you have guessed the correct number\n");
+    printf("Congrats you have guessed the correct number.\n");
     int num2;
     do
     {
@@ -15,6 +15,6 @@ int main()
         scanf("%d", &num2);
     }
     while(num2 != 10);
-    printf("Congrats you have guessed the correct number");
+    printf("Congrats you have guessed the correct number.");
     return 0;
 }

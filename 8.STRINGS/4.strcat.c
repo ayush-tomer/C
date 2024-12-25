@@ -9,6 +9,6 @@ int main()
     printf("Please enter your last name: ");
     fgets(last_name, 100, stdin);
     strcat(first_name, last_name);
-    printf("Your full name is %s", first_name);
+    printf("Your full name is %s.", first_name);
     return 0;
 }

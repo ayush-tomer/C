@@ -16,6 +16,6 @@ void print_marks(int marks[], int number_of_students)
 {
     for(int i = 0; i < number_of_students; i++)
     {
-        printf("The marks of student %d is %d\n", i + 1, marks[i]);
+        printf("The marks of student %d is %d.\n", i + 1, marks[i]);
     }
 }
