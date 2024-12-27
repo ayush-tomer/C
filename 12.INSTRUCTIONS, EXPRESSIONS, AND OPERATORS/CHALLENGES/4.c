@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, c, d;
+    int a, b, c, d, perimeter;
     printf("Please enter the first side of the quadrilateral: ");
     scanf("%d", &a);
     printf("Now, enter the second side of the quadrilateral: ");
@@ -10,7 +10,7 @@ int main()
     scanf("%d", &c);
     printf("Now, enter the fourth side of the quadrilateral: ");
     scanf("%d", &d);
-    int perimeter = a + b + c + d;
+    perimeter = a + b + c + d;
     printf("The perimeter of your quadrilateral is: %d", perimeter);
     return 0;
 }

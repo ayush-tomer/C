@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    float first, second;
+    float first, second, result;
     char operator;
     printf("Welcome to the calculator!\n");
     printf("Please enter the first number: ");
@@ -10,7 +10,6 @@ int main()
     scanf("%f", &second);
     printf("Finally enter the operator (+, -, *, /): ");
     scanf(" %c", &operator);
-    float result;
     switch(operator)
     {
         case '+':
