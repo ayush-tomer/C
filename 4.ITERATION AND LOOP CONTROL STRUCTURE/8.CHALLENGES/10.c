@@ -6,9 +6,9 @@ int main()
     printf("Please enter the number of rows you want to print: ");
     scanf("%d", &rows);
     printf("Right Half Pyramid Pattern:\n");
-    for(int i = 0; i <= rows; i++)
+    for(int i = 0; i < rows; i++)
     {
-        for(int j = 0; j < i; j++)
+        for(int j = 0; j <= i; j++)
         {
             printf("* ");
         }
